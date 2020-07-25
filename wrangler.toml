@@ -2,9 +2,9 @@ name = "edge-oembed"
 type = "javascript"
 workers_dev = false
 routes = [
-  "https://blog.ctmartin.me/oembed",
-  "https://food.ctmartin.me/oembed",
-  "https://vis.ctmartin.me/oembed"
+  "https://blog.ctmartin.me/oembed*",
+  "https://food.ctmartin.me/oembed*",
+  "https://vis.ctmartin.me/oembed*"
 ]
 
 # Account ID, API Token, & Zone ID defined via CI environment variables
