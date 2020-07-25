@@ -1,0 +1,26 @@
+{
+  "name": "edge-oembed",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for edge/serverless oEmbed Provider",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev --host blog.ctmartin.me",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "publish": "wrangler publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ct-martin/edge-oembed.git"
+  },
+  "author": "ctmartin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ct-martin/edge-oembed/issues"
+  },
+  "homepage": "https://github.com/ct-martin/edge-oembed#readme",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.10.3",
+    "prettier": "^2.0.5"
+  }
+}
