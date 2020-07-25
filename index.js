@@ -67,7 +67,7 @@ async function handleRequest(request) {
 
   // Find data
   let schema = {},
-    metaTitle = '',
+    metaTitle,
     metaByName = {},
     metaByProp = {},
     metaByItemProp = {}
@@ -96,6 +96,9 @@ async function handleRequest(request) {
     let jsonRaw = ''
     await new HTMLRewriter()
       .on('head title', {
+        element() {
+          metaTitle = ''
+        },
         text(text) {
           metaTitle += text.text
         },
