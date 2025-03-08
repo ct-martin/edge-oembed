@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ct-martin/edge-oembed#readme",
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.10.3",
+    "@cloudflare/wrangler": "^1.21.0",
     "prettier": "^2.0.5"
   }
 }
